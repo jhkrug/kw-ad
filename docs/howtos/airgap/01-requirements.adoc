@@ -1,0 +1,4 @@
+[arabic]
+. Private registry that supports OCI artifacts. It’s needed for storing container images and policies. There is a list of supported Open Container Initiative (OCI) registries link:../../reference/oci-registries-support[here].
+. https://github.com/kubewarden/kwctl[kwctl] 1.3.1 or later.
+. docker v20.10.6 or later.

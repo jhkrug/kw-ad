@@ -1,0 +1,3 @@
+_Kubewarden welcomes all contributors, whether new or experienced._
+
+Please review our contributing guide https://github.com/kubewarden/community/blob/main/CONTRIBUTING.md[here].

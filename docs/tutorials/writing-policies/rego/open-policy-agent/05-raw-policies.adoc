@@ -1,0 +1,75 @@
+Raw policies are policies that can evaluate arbitrary JSON documents. For more information about raw policies, please refer to the link:../../../../howtos/raw-policies.md[raw policies] page.
+
+== Example
+
+The following examples should look familiar if you completed the link:02-create-policy.md[validation] page of this tutorial.
+
+[NOTE]
+====
+Remember to mark the policy as `raw`, by using the `policyType` field in the `metadata.yml` configuration. Please refer to the link:../../metadata.md[metadata] specification for more information.
+======= Validation
+
+You’re going to write a policy that accepts a request in the following format:
+
+[source,json]
+----
+{
+  "request": {
+    "user": "alice",
+    "action": "read",
+    "resource": "products"
+  }
+}
+----
+
+It validates that only the `admin` user can delete resources.
+
+Start by scaffolding a policy by using the https://github.com/kubewarden/opa-policy-template[OPA policy template].
+
+First you need to change the `policy.rego` file to look like this:
+
+[source,rego]
+----
+package validation
+
+deny[msg] {
+    input.request.action == "delete"
+    input.request.user != "admin"
+    msg := sprintf("user %v is not allowed to delete resources", [input.request.user])
+}
+----
+
+The `utility/policy.rego` module must needs modification to remove Kubernetes-specific code:
+
+[source,rego]
+----
+package policy
+
+import data.validation
+
+main = {
+    "response": response,
+}
+
+// highlight-start
+# OPA policy responses need the uid field to be set.
+# If the request doesn't contain a uid, set it to an empty string.
+default uid = ""
+
+uid = input.request.uid
+// highlight-end
+
+response = {
+    "uid": uid,
+    "allowed": false,
+    "status": {"message": reason},
+} {
+    reason = concat(", ", validation.deny)
+    reason != ""
+} else = {
+    "uid": uid,
+    "allowed": true,
+} {
+    true
+}
+----
