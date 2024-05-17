@@ -1,3 +1,5 @@
+= Quick start
+
 The Kubewarden stack comprises:
 
 * Some `ClusterAdmissionPolicy` resources: this is how policies are defined for Kubernetes clusters
