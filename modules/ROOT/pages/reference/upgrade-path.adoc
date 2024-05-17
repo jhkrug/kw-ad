@@ -26,7 +26,7 @@ Helm charts define the `version` field and the `appVersion` field. The `appVersi
 
 When upgrading components, it is allowed to upgrade multiple `PATCH` stack versions in a single operation. However, the upgrade of multiple `MAJOR` or `MINOR` stack versions in a single upgrade is *not* supported.
 
-[source,mermaid]
+[mermaid]
 ----
 %%{init: "theme": "neutral"}%%
 flowchart LR;

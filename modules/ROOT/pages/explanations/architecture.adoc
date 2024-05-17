@@ -9,7 +9,9 @@ A policy is an https://opencontainers.org/[Open Container Initiative] (OCI) arti
 [NOTE]
 ====
 In the same manner as https://kubernetes.io/docs/contribute/style/style-guide/[Kubernetes], Kubewarden uses the terms `PolicyServer' when discussing the Kubewarden policy server and `policy-server` when discussing Pod or Deployment of a Kubewarden PolicyServer.
-====== Design principles
+====
+
+== Design principles
 
 === Making use of core Kubernetes features
 
@@ -58,7 +60,7 @@ The `kubewarden-controller` registers the needed `MutatingWebhookConfiguration` 
 +
 link:/explanations/audit-scanner/audit-scanner.md[Audit scanner] constantly checks the resources declared in the cluster, flagging the ones that no longer adhere with the deployed Kubewarden policies.
 +
-[source,mermaid]
+[mermaid]
 ----
 %%{
   init: {
@@ -96,6 +98,7 @@ graph LR
     audit-scanner -->|"sends audit\nadmission requests"| policy-server
 ----
 
+
 == The journey of a Kubewarden policy
 
 === Default PolicyServer
@@ -123,7 +126,9 @@ Finally, `kubewarden-controller` creates the `policy-server` Deployment and a Ku
 [NOTE]
 ====
 A policy must define which `policy-server` it must run on. It *binds* to a `policy-server` instance. You can have different policies with the same Wasm module and settings running in many PolicyServers. However, you can’t have a single policy definition that runs in many PolicyServers.
-====The `kubewarden-controller` notices the new `ClusterAdmissionPolicy` resource and so finds the bound `policy-server` and reconciles it.
+====
+
+The `kubewarden-controller` notices the new `ClusterAdmissionPolicy` resource and so finds the bound `policy-server` and reconciles it.
 
 === Reconciliation of a `policy-server`
 
