@@ -1,3 +1,5 @@
+= Distributing policy
+
 It’s been a lengthy, and hopefully enjoyable, wander through the Go tutorial, congratulations for having made it this far 🎉.
 
 During this tutorial you’ve recreated the https://github.com/kubewarden/safe-labels-policy[safe-labels-policy].

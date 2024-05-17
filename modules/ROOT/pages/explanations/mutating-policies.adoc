@@ -1,3 +1,5 @@
+= Mutating policies
+
 Mutating policies receive an object request and rebuild this incoming object (mutate it) into a new request, according to the defined values in the settings of the policy. The request will proceed through the Kubernetes API, potentially being evaluated by other policies.
 
 If you want to allow the behavior of mutating requests, set the `ClusterAdmissionPolicy.mutating` field to `true`.

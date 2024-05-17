@@ -1,3 +1,5 @@
+= Build and run a OPA policy for Kubewarden
+
 In the previous section you wrote your Rego policy. The structure looks like:
 
 [source,console]

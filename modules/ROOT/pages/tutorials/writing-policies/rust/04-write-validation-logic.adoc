@@ -1,3 +1,5 @@
+= Writing validation logic
+
 It’s time to write the actual validation code. It’s defined in the `src/lib.rs` file. In this file you can find a function called `validate`.
 
 This is the scaffolding provided function:

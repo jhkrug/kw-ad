@@ -1,3 +1,5 @@
+= Validation using JSON queries
+
 An earlier section shows how to write a link:04-validation.md[validation] policy by using Go types describing Kubernetes objects.
 
 There is another way to write validation logic, by extracting the relevant data from the JSON document using ad-hoc queries.

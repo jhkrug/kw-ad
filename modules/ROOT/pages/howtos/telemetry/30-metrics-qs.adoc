@@ -1,3 +1,5 @@
+= Metrics quickstart
+
 This section describes how to enable metrics reporting on the Policy Server.
 
 [NOTE]
@@ -189,4 +191,4 @@ Policy detailed metrics can be obtained by changing the value of the `policy_nam
 
 You should be able to see the dashboard similar to this:
 
-image:/img/grafana_dashboard.png[Dashboard]
+image:grafana_dashboard.png[Dashboard]

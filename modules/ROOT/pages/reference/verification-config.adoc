@@ -1,3 +1,5 @@
+= Verification configuration format
+
 == Introduction
 
 The verification-config format is used by:

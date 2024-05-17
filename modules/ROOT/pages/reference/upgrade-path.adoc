@@ -1,3 +1,5 @@
+= Upgrade path
+
 == Kubewarden stack versioning
 
 The Kubewarden project uses https://semver.org/[Semantic versioning] to define the ``stack'' version of all its components: the version follows the `MAJOR.MINOR.PATCH` pattern. The supported version is only the latest release.

@@ -1,3 +1,5 @@
+= Defining policy settings
+
 == The policy settings structure
 
 Firstly, define the structure that holds the policy settings.

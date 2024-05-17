@@ -1,3 +1,5 @@
+= Cryptographic capabilities
+
 Because of Wasm constraints at the time of writing, some cryptographic libraries cannot be compiled to Wasm. In the meantime, Kubewarden policies needing those libraries can perform callbacks to evaluate the cryptographic functions on the host side. They receive the result, and continue with their tasks.
 
 == WaPC protocol contract

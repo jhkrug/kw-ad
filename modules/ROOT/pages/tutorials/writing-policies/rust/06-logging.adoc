@@ -1,3 +1,5 @@
+= Logging
+
 You can have your policy perform logging. The `policy-server` or `kwctl` forwards those log entries with the appropriate information.
 
 The logging library chosen for the Rust SDK is https://github.com/slog-rs/slog[`slog`]. It’s a popular, well known crate and integrates cleanly with Kubewarden.

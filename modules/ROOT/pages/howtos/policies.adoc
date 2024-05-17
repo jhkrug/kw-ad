@@ -1,3 +1,5 @@
+= Configuring policies
+
 == Skipping namespaces for a specific policy
 
 By default, policies apply to all Namespaces that the `PolicyServer` is configured for. If you want a policy to target only specific namespaces, you can deploy several `AdmissionPolicies` in each Namespace.

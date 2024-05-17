@@ -1,3 +1,5 @@
+= Using Pod Security Admission with Kubewarden
+
 Pod Security Policies (PSP) are removed since the Kubernetes 1.25 release. They’re replaced by the https://kubernetes.io/docs/concepts/security/pod-security-admission/[Pod Security Admission] (PSA).
 
 PSA simplifies securing the Pods in Kubernetes clusters.

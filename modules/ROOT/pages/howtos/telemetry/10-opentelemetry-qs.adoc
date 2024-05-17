@@ -1,3 +1,5 @@
+= Open Telemetry quick start
+
 https://opentelemetry.io/[OpenTelemetry] is a Cloud Native Computing Foundation framework for observability. It enables your microservices to provide metrics, logs and traces.
 
 Kubewarden’s components are instrumented with the OpenTelemetry SDK, reporting data to an OpenTelemetry collector – called the agent.

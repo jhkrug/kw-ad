@@ -1,3 +1,5 @@
+= Rust
+
 https://www.rust-lang.org/[Rust] is the most mature programming language that can generate WebAssembly modules. WebAssembly is a first-class citizen in the Rust world so many of the tools and crates from the Rust ecosystem work out of the box.
 
 Kubewarden provides a https://crates.io/crates/kubewarden-policy-sdk[Rust SDK] that simplifies the process of writing policies. There is also a https://github.com/kubewarden/rust-policy-template[template project] to provide scaffolding for a policy project using the https://github.com/cargo-generate/cargo-generate[`cargo-generate`] utility.

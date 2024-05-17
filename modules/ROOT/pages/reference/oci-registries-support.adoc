@@ -1,3 +1,5 @@
+= OCI registry support for Kubewarden
+
 Kubewarden policies are distributed as https://github.com/opencontainers/artifacts[OCI Artifacts] using regular Open Container Initiative (OCI) registries.
 
 Policies are stored alongside container images. They don’t require extra setup or maintenance other than that needed for regular container images.

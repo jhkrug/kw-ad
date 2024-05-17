@@ -1,3 +1,5 @@
+= Using custom certificate authorities
+
 == Custom Certificate Authorities for Policy registries
 
 It is possible to specify and configure the Certificate Authorities that a PolicyServer uses when pulling the ClusterAdmissionPolicy artifacts from the policy registry. The following `spec` fields will configure the deployed `policy-server` executable to that effect.

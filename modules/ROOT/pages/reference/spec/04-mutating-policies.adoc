@@ -1,3 +1,5 @@
+= Mutating policies
+
 Mutating policies are structured in the same way as validating ones:
 
 * They have to register `validate` and `validate_settings` waPC functions.

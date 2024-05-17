@@ -1,3 +1,5 @@
+= Gatekeeper support
+
 [NOTE]
 ====
 Gatekeeper support starts from these releases:

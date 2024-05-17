@@ -1,3 +1,5 @@
+= PodSecurityPolicy migration
+
 For Kubernetes ≥ v1.25. https://kubernetes.io/docs/concepts/security/pod-security-policy/[PodSecurityPolicy] (PSP) is removed. Now you can use Kubewarden for admission control on your Kubernetes clusters.
 
 Kubewarden has separate policies to achieve the same goal as a monolithic PSP configuration. Each Kubewarden policy definition functions as a different configuration section in the specification of a PSP. The mapping of PSP configuration fields to their respective Kubewarden policies is in the link:#mapping-kuberwarden-policies-to-psp-fields[mapping table] below.

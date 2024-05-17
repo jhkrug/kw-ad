@@ -1,3 +1,5 @@
+= Policy settings
+
 Policy behavior is not rigid, it can be configured by providing configuration details to the policy at runtime. The policy author has the freedom to define the structure of policy settings.
 
 Kubewarden takes care of serializing the policy settings into JSON and provides them to the policy each time it is invoked.

@@ -1,3 +1,5 @@
+= Suggesting a doc improvement
+
 If you notice an issue with Kubewarden documentation or want to suggest new content, then open an issue. You only require access to a https://github.com/join[GitHub account] and a browser.
 
 Usually, any new documentation work for Kubewarden begins with an issue in GitHub. The https://github.com/orgs/kubewarden/teams/kubewarden-documentation[Kubewarden documentation team] reviews, categorizes, and tags them. Everybody is welcome to work on any issue, including the reporter, but you should assign it to yourself before commencing any work to avoid duplicate efforts.

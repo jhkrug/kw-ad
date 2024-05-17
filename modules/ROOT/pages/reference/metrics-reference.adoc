@@ -1,3 +1,5 @@
+=  Metrics reference
+
 Kubewarden exposes relevant platform metrics allowing cluster administrators and policy developers to identify patterns and potential issues.
 
 == Policy Server

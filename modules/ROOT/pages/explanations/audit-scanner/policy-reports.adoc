@@ -1,3 +1,5 @@
+= Audit Scanner - Policy Reports
+
 When using the Kubewarden Audit Scanner, the results of the policy scans are stored using the https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html[PolicyReport] Custom Resource.
 
 [CAUTION]
@@ -179,10 +181,10 @@ The Policy Reporter is shipped as a subchart of `kubewarden-controller`. Refer t
 
 The Policy Reporter UI provides a dashboard showing all violations from `PolicyReports` and the `ClusterPolicyReport`. This is shown below.
 
-image:/img/policy-reporter_dashboard.png[Policy Reporter dashboard example]
+image:policy-reporter_dashboard.png[Policy Reporter dashboard example]
 
 As shown below, it also provides a tab for PolicyReports, and a tab for ClusterPolicyReports, with expanded information.
 
-image:/img/policy-reporter_policyreports.png[Policy Reporter PolicyReports example]
+image:policy-reporter_policyreports.png[Policy Reporter PolicyReports example]
 
 Other features of Policy Reporter include forwarding of results to different clients (like Grafana Loki, Elasticsearch, chat applications), metrics endpoints, and so on. See the https://kyverno.github.io/policy-reporter[policy-reporter’s community docs] for more information.

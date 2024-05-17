@@ -1,3 +1,5 @@
+= Defining policy settings
+
 Firstly, you need to define the structure that holds the policy settings.
 
 You do this by modifying the code in the `settings.go` file (from your local version of the Go policy template). You need to add two extra lines to the `import` section, change the `Settings` structure, and add the `RegularExpression` structure.

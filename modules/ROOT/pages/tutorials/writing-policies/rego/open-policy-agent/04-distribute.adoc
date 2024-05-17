@@ -1,3 +1,5 @@
+= Distributing an OPA policy with Kubewarden
+
 You have written, built and run your Rego policy. Now it’s time to distribute the policy.
 
 Policies have to be annotated, so they can run in the `policy-server`. The `policy-server` is the part that executes the policies, when running in a Kubernetes cluster.

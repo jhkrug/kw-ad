@@ -1,3 +1,5 @@
+= Introduction to Open Policy Agent
+
 [NOTE]
 ====
 Open Policy Agent support has been introduced starting from these releases: * kwctl: v0.2.0 * policy-server: v0.2.0

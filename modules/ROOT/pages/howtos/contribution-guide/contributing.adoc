@@ -1,3 +1,5 @@
+= Contributing to Kubewarden documentation
+
 _Kubewarden welcomes suggestions for improvement from all contributors, whether new or experienced._
 
 You can contribute to Kubewarden documentation by:

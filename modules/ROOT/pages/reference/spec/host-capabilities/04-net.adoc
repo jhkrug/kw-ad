@@ -1,3 +1,5 @@
+= Network capabilities
+
 Kubewarden policies cannot make network request from within the WebAssembly execution context.
 
 Network operations can be done by leveraging a series of capabilities exposed by the host.

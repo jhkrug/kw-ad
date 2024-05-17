@@ -1,3 +1,5 @@
+= Build and run a Gatekeeper policy
+
 You can build and run the policy in exactly the same way as a Rego policy targeting Open Policy Agent. The structure of your project is:
 
 ....

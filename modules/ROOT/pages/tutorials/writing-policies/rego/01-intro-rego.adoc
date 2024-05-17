@@ -1,3 +1,5 @@
+= Rego
+
 [NOTE]
 ====
 Rego support is available from these releases:

@@ -1,8 +1,10 @@
+= Tracing
+
 Tracing allows collection of fine-grained details about policy evaluations. It’s a useful tool for debugging issues in your Kubewarden deployment and policies.
 
 https://www.jaegertracing.io/[Jaeger] is used to receive, store, and visualize trace events.
 
-*_Policy tracing logs_* image:/img/ui_policy_tracing.png[UI Policy Tracing Logs]
+*_Policy tracing logs_* image:ui_policy_tracing.png[UI Policy Tracing Logs]
 
 == Prerequisites
 

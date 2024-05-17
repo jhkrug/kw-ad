@@ -1,3 +1,5 @@
+= Context aware policies
+
 The `policy-server` has the capability to expose cluster information to policies, so that they can take decisions based on other existing resources, and not only based on the details provided by the admission request.
 
 The retrieval of Kubernetes resources is performed by the Policy Server hosting the policy. Access to Kubernetes is regulated by RBAC rules applied to the Service Account used by the Policy Server.

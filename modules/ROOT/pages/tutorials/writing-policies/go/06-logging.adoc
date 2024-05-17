@@ -1,3 +1,5 @@
+= Logging
+
 The Go SDK integrates with the https://github.com/francoispqt/onelog[`onelog`] project, almost out of the box.
 
 The project has chosen this library as:

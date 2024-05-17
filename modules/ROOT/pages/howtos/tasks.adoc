@@ -1,3 +1,5 @@
+= Common tasks
+
 This describes tasks that can be performed after you link:/quick-start.md#installation[install Kubewarden] in your Kubernetes cluster.
 
 Each task can be done separately; they are shown here in a logical ordering.
@@ -15,7 +17,7 @@ Artifact hub hosts policies contributed by the community. For example, you can f
 
 As shown in the screenshot below, once you find a policy of interest, select the `Install` button and use `kwctl` to fetch the policy for your cluster.
 
-image:/img/tasks-artifact-hub.png[Artifact Hub]
+image:tasks-artifact-hub.png[Artifact Hub]
 
 [NOTE]
 ====

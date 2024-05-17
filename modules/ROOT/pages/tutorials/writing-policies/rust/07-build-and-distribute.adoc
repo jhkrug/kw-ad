@@ -1,3 +1,5 @@
+= Building and distributing policies
+
 == Building the policy
 
 Thus far, you’ve built the policy with a compilation target of the same operating system and architecture of your development machine.

@@ -1,3 +1,5 @@
+= Distributing a Gatekeeper policy with Kubewarden
+
 Policies have to be annotated for them to be pushed, and eventually executed by the Kubewarden `policy-server` in a Kubernetes cluster.
 
 Annotating and distributing a Gatekeeper policy is similar to distributing an Open Policy Agent one.

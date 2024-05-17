@@ -1,3 +1,5 @@
+= Distributing policies
+
 Kubewarden policies are WebAssembly (Wasm) binaries that are evaluated by the Kubewarden Policy Server.
 
 The Kubewarden policy server can load policies from these sources:

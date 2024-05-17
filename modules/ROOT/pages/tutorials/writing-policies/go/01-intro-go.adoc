@@ -1,3 +1,5 @@
+= Writing policies in Go
+
 [NOTE]
 ====
 Go’s support for WebAssembly is fast evolving. This page was last revised in December 2023.

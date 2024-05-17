@@ -1,3 +1,5 @@
+= Validating policies
+
 The Kubewarden policy server receives:
 
 * Kubernetes https://godoc.org/k8s.io/api/admission/v1#AdmissionReview[`AdmissionReview`] objects from the Kubernetes API server. It then forwards the value of its `request` attribute, of type https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest[`AdmissionRequest`], to the policy to be evaluated.

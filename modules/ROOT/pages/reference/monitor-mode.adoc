@@ -1,3 +1,5 @@
+= Monitor mode
+
 When defining a policy, you can choose between two modes, specified in its link:CRDs#admissionpolicyspec[`spec.mode`]. By default, the policy is deployed in `mode: protect`, where it accepts, rejects, or mutates requests.
 
 One can choose to deploy a policy in monitor mode. In monitor mode:

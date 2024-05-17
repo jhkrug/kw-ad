@@ -1,3 +1,5 @@
+= Creating a new Gatekeeper Rego policy
+
 For this tutorial you’ll implement the same policy that you wrote with link:../open-policy-agent/create-policy[Open Policy Agent]. Namely, a policy that rejects a resource if it’s targeting the `default` namespace.
 
 [NOTE]

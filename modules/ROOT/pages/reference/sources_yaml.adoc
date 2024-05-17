@@ -1,3 +1,5 @@
+= Reference for sources.yaml
+
 == The `sources.yaml` file
 
 You can tune the push-pull behavior of `kwctl` and `policy-server` using the `sources.yaml` file.

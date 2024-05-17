@@ -1,3 +1,5 @@
+= Secure supply chain
+
 A secure supply chain infrastructure can verify the validity of its parts, or links. It lets users and developers show the chain of custody of its software components, or artifacts. It’s an active approach to mitigate security issues.
 
 The https://sigstore.dev/[Sigstore] project provides tools and infrastructure for this. It’s for validating the integrity of the artifact supply chain.

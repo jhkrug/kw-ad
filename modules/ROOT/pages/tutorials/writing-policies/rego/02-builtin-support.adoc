@@ -1,3 +1,5 @@
+= Builtin support
+
 Additionally, to building a policy for the `wasm` target, it needs running.
 
 The Open Policy Agent (OPA) team has a page you can check for https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions[built-in support].

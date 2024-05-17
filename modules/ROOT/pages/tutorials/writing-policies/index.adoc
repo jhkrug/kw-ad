@@ -1,3 +1,5 @@
+= Writing Kubewarden policies
+
 This section introduces Kubewarden policies using traditional computing analogies.
 
 A Kubewarden policy is like a program that does one job. It receives input data, performs computation with that data and returns a result.

@@ -1,3 +1,5 @@
+= Context aware policies
+
 Developers can create policies that fetch information from a Kubernetes cluster at run time. These are context aware policies. Context aware policies can determine whether an `AdmissionRequest` is acceptable using information from resources deployed in the cluster.
 
 [NOTE]
@@ -48,7 +50,9 @@ To prevent system abuse, Kubewarden administrators must review the resources the
 For example, a policy evaluating ingress objects would have good reasons to read the `Ingress` resources defined in the cluster. The same policy can’t justify having access to `Secret` resources.
 
 Policies should have the least access needed to function correctly.
-====[NOTE]
+====
+
+[NOTE]
 ====
 Kubernetes resources are identified by `apiVersion` and `kind`.
 

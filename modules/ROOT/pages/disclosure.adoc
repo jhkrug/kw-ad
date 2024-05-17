@@ -1,3 +1,5 @@
+= Security disclosure
+
 The Kubewarden team greatly appreciates investigative work into security vulnerabilities carried out by well-intentioned, ethical security researchers. We follow the practice of https://en.wikipedia.org/wiki/Responsible_disclosure[responsible disclosure] in order to best protect Kubewarden’s user-base from the impact of security issues. On our side, this means:
 
 * We will respond to security incidents on priority.

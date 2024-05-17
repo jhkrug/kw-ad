@@ -1,3 +1,5 @@
+= Kubewarden architecture
+
 Kubewarden is a Kubernetes policy engine. It uses policies written in a programming language of your choosing. This language must generate a WebAssembly binary for Kubewarden to use.
 
 == What _is_ a policy?

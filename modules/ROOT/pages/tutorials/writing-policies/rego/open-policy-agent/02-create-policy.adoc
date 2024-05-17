@@ -1,3 +1,5 @@
+= Creating a new policy
+
 You can create a sample policy that helps to understand the important concepts.
 
 [NOTE]

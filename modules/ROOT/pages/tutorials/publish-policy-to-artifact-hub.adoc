@@ -1,3 +1,5 @@
+= Publish policies to Artifact Hub
+
 https://artifacthub.io/[Artifact Hub] is a website where users can find, install, and publish packages and configurations for https://cncf.io[CNCF] projects.
 
 Kubewarden policies can be published on Artifact Hub and made discoverable to the wide audience of CNCF users.

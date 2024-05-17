@@ -1,3 +1,5 @@
+= Custom certificate authorities
+
 With both of `kwctl` and `policy-server` you can pull policies from Open Container Initiative (OCI) registries and HTTP servers. You can only push policies to OCI registries. By default, HTTPS is used with host TLS verification for this.
 
 The system’s certificate authority (CA) store is used to validate the trusted chain of certificates from the OCI registry. In a standard Kubewarden installation, the `policy-server` uses the CA store shipped with its Linux container. On the client side, `kwctl` uses your operating system CA store.

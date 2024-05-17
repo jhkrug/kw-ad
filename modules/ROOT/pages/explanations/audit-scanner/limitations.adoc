@@ -1,3 +1,5 @@
+= Audit Scanner - Limitations
+
 == Supported event types
 
 Policies can inspect `CREATE`, `UPDATE`, and `DELETE` events.

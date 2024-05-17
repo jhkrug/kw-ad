@@ -1,3 +1,5 @@
+= Writing raw policies
+
 Raw policies are policies that can evaluate arbitrary JSON documents. For more information about raw policies, please refer to the link:../../../howtos/raw-policies.md[raw policies] page.
 
 == Examples

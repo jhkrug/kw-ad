@@ -1,3 +1,5 @@
+= WASI
+
 The https://wasi.dev/[WebAssembly System Interface (WASI)] is a WebAssembly standard providing a set of interfaces allowing execution of WebAssembly outside of browser.
 
 [CAUTION]

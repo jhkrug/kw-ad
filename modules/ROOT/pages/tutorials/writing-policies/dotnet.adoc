@@ -1,3 +1,5 @@
+= C#
+
 Currently, .NET Core has experimental support for the WebAssembly WASI platform. This is from the https://github.com/SteveSandersonMS/dotnet-wasi-sdk[`dotnet-wasi-sdk`] project.
 
 [NOTE]

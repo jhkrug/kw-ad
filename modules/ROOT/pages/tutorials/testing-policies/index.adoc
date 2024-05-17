@@ -1,3 +1,5 @@
+= Policy testing
+
 == Policy testing personas
 
 This section covers the topic of testing Kubewarden Policies. There are two personas interested in testing policies:

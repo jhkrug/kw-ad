@@ -1,3 +1,5 @@
+= Integrating with GitHub Actions
+
 == Automation
 
 This section describes how you can use GitHub Actions to automate tasks.

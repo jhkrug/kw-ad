@@ -1,3 +1,5 @@
+= Rancher UI extension quickstart
+
 This section describes installing the Kubewarden UI as an extension of https://github.com/rancher/rancher[Rancher Manager].
 
 You need a running instance of Rancher Manager `v2.7.0` or greater.
@@ -22,7 +24,7 @@ During the ``App Install'' step of the installation wizard, the ``Install Kubewa
 
 After completing the installation the dashboard page and side menu now contain new items, namely Policy Servers, Cluster Admission Policies, and Admission Policies. From here you can create Policy Servers and Policies to control behavior within your cluster.
 
-*_Dashboard view_* image:/img/ui_dashboard.png[UI Dashboard]
+*_Dashboard view_* image:ui_dashboard.png[UI Dashboard]
 
 === Enabling the default Policy Server and policies
 
@@ -30,19 +32,19 @@ Within the dashboard page you can select the ``Install Chart'' button to install
 
 After installing the chart, you can view the default Policy Server details with the related policies in a sortable table.
 
-*_Policy Server detail view_* image:/img/ui_policyserver_detail.png[UI PolicyServer Detail]
+*_Policy Server detail view_* image:ui_policyserver_detail.png[UI PolicyServer Detail]
 
 === Creating policies
 
 When creating policies, you will initially be given a ``Custom Policy'' option from the Policy Grid. Provide the required information for your policy’s Name, Module, and Rules.
 
-*_Creating a custom policy_* image:/img/ui_policy_custom.png[UI Policy Whitelist]
+*_Creating a custom policy_* image:ui_policy_custom.png[UI Policy Whitelist]
 
 If you wish to use policies from https://artifacthub.io/packages/search?kind=13[ArtifactHub], you will need to add `artifacthub.io` to the `management.cattle.io.settings/whitelist-domain` setting. This allows your Rancher instance to retrieve package information from ArtifactHub. Use the ``Add ArtifactHub To Whitelist'' button to automatically add the domain, the Policy Grid will refresh with the fetched policies.
 
-*_ArtifactHub whitelist banner_* image:/img/ui_policy_whitelist.png[UI Policy Whitelist]
+*_ArtifactHub whitelist banner_* image:ui_policy_whitelist.png[UI Policy Whitelist]
 
-*_Policy Grid_* image:/img/ui_policy_create.png[UI Policy Create]
+*_Policy Grid_* image:ui_policy_create.png[UI Policy Create]
 
 === Additional features
 
@@ -62,11 +64,11 @@ Once this image has been mirrored to a registry accessible to your air-gapped cl
 [arabic]
 . https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-resources-setup/secrets[Create] a registry secret within the `cattle-ui-plugin-system` namespace. Enter the domain of the image address in the *Registry Domain Name* field.
 . Navigate back to the *Extensions* page (for example, `https://cluster-ip/dashboard/c/local/uiplugins`).
-. On the top right, select *Manage Extension Catalogs*. image:/img/ui_airgap_01.png[Manage Catalogs]
-. Select the *Import Extension Catalog* button. image:/img/ui_airgap_02.png[Import Catalogs]
+. On the top right, select *Manage Extension Catalogs*. image:ui_airgap_01.png[Manage Catalogs]
+. Select the *Import Extension Catalog* button. image:ui_airgap_02.png[Import Catalogs]
 . Enter the image address in the *Catalog Image Reference* field.
-. Select the secret you just created from the *Pull Secrets* drop-down menu. image:/img/ui_airgap_03.png[Enter Catalog Info]
+. Select the secret you just created from the *Pull Secrets* drop-down menu. image:ui_airgap_03.png[Enter Catalog Info]
 . Click *Load*. The extension will now be *Pending*.
 . Return to the *Extensions* page.
-. Select the *Available* tab, and click the *Reload* button to make sure that the list of extensions is up to date. image:/img/ui_airgap_04.png[Install Kubewarden]
+. Select the *Available* tab, and click the *Reload* button to make sure that the list of extensions is up to date. image:ui_airgap_04.png[Install Kubewarden]
 . Find the Kubewarden extension you just added, and select the *Install* button.
